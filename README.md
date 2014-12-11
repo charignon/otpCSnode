@@ -1,9 +1,8 @@
 One time pad in coffee script
 =========
 
-We have two computers called HostA and HostB, let's say that the ssh server is
-on HostB. Let's say that out of the 100Mb key, we want to use the last 50Mb for
-the server and the first 50Mb for the client.
+Assuming two hosts called HostA and HostB, and a ssh server on HostB. 
+Out of the 100Mb key, we want to use the last 50Mb for the server and the first 50Mb for the client.
 
 On HostB we start the encryption server:
 ```
