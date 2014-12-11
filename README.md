@@ -1,6 +1,16 @@
 One time pad in coffee script
 =========
 
+## Prerequesite
+
+```
+brew install node
+npm install coffee-script, minimist, underscore
+dd if=/dev/random of=./key bs=1048576 count=100
+```
+
+## Encrypt SSH traffic
+
 Assuming two hosts called HostA and HostB, and a ssh server on HostB. 
 Out of the 100Mb key, we want to use the last 50Mb for the server and the first 50Mb for the client.
 
